@@ -1,12 +1,12 @@
-import Image from 'next/image';
+
 import React from 'react';
-import { Flex, Rate } from 'antd';
-import { CloseOutlined } from '@ant-design/icons'
+
+import Guide from './Guide';
 
 const HomePage = () => {
     return (
         <section>
-            
+            <Guide></Guide>
         </section>
     );
 };
