@@ -60,9 +60,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn btn-ghost px-6 rounded-3xl bg-black text-white ">
+                    <button className=" flex items-center gap-2 rounded-full !bg-black p-4 px-8 text-white ">
                         <LuUser2 className='text-2xl '></LuUser2>
-                        <span className='text-xl'>Login</span>
+                        <span className='text-xl font-bold'>Login</span>
                     </button>
                 </div>
             </div>
