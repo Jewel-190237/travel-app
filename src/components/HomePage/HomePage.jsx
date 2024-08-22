@@ -11,7 +11,7 @@ const HomePage = () => {
                     {/* style={{ backgroundImage: "url('/hero.png')" }} */}
                     <Image className=' 'src='/hero.png' height={1000} width={1000} alt='icon' />
                 </div>
-                <div className='relative md:-top-[250px] lg:-top-[400px] w-full ml-5'>
+                <div className='relative md:-top-[259px] lg:-top-[400px] w-full ml-5'>
                     <div className='mt-10'>
                         <Image className='' src='/camp.svg' height={50} width={50} alt='icon' />
                     </div>
