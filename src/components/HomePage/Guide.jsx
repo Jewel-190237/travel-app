@@ -33,8 +33,6 @@ const Guide = () => {
                     </div>
                 </div>
             </div>
-lll
-            <Image src='/calendar.svg' height={5000} width={5000} alt='camp' />
 
         </section>
     );
