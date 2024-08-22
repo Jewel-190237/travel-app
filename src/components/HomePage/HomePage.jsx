@@ -7,11 +7,11 @@ const HomePage = () => {
     return (
         <section>
             <div className=''>
-                <div className='-mt-40 ml-[600px]'>
+                <div className='md:-mt-20 lg:-mt-40 md:ml-[400px]  lg:ml-[600px]'>
                     {/* style={{ backgroundImage: "url('/hero.png')" }} */}
-                    <Image className=' ' src='/hero.png' height={1000} width={1000} alt='icon' />
+                    <Image className=' 'src='/hero.png' height={1000} width={1000} alt='icon' />
                 </div>
-                <div className='relative -top-[400px] w-full md:w-1/2 ml-5'>
+                <div className='relative md:-top-[250px] lg:-top-[400px] w-full ml-5'>
                     <div className='mt-10'>
                         <Image className='' src='/camp.svg' height={50} width={50} alt='icon' />
                     </div>
@@ -43,7 +43,8 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative rounded-2xl -right-[670px] -top-[840px] bg-[#292C27] w-72 h-52 text-white'>
+                {/* div  */}
+                <div className='relative rounded-2xl md:-right-[350px] lg:-right-[670px] md:-top-[790px] lg:-top-[840px] bg-[#292C27] w-72 h-52 text-white'>
                     <div className='flex pt-6  pl-4 justify-between'>
                         <p className='text-gray-400'>Location</p>
                         <CloseOutlined className='pr-8' />
