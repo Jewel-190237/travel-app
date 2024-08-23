@@ -11,10 +11,14 @@ const GetSection = () => {
                         <h2 className='text-white font-bold text-6xl'>Get for <br /> free now!
                         </h2>
                         <p className='mt-10 text-white'>Available on iOS and Android</p>
-                        <div className='flex flex-col md:flex-row'>
-                            <button className='w-full rounded-full bg-white text-green-700'>
-                                <Image className='' src='/apple.svg' height={50} width={50} alt='feature'/>
-
+                        <div className='flex flex-col md:flex-row gap-8 mt-10'>
+                            <button className='flex items-center w-full rounded-full bg-white text-green-700'>
+                                <Image className='' src='/apple.svg' height={50} width={50} alt='feature' />
+                                app store
+                            </button>
+                            <button className='flex items-center w-full rounded-full  text-white border border-black'>
+                                <Image className='' src='android.svg' height={50} width={50} alt='feature' />
+                                play store
                             </button>
 
                         </div>
