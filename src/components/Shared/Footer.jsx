@@ -3,40 +3,20 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer bg-base-200 text-base-content p-10">
-                <aside>
-                    <Image src='/hilink-logo.svg' alt='hlink' width={100} height={100} />
+        <section className='bg-gray-400 '>
+            <div className='max-w-7xl mx-auto'>
+                <div className='flex flex-col lg:flex-row'>
+                    <div>
+                        <Image src='/hilink-logo.svg' alt='hlink' width={100} height={100} />
+                    </div>
+                    <div className=''>
+                        <div>
 
-                    ACME Industries Ltd.
-                    <br />
-                    Providing reliable tech since 1992
-                    <br />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-
-                </aside>
-                <nav>
-                    <h6 className="footer-title">Services</h6>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
-                </nav>
-                <nav>
-                    <h6 className="footer-title">Company</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
-                </nav>
-                <nav>
-                    <h6 className="footer-title">Legal</h6>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
-                </nav>
-            </footer>
-        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 };
 
