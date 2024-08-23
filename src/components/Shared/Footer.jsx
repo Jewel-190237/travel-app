@@ -11,6 +11,8 @@ const Footer = () => {
                         ACME Industries Ltd.
                         <br />
                         Providing reliable tech since 1992
+                        <br />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </p>
                 </aside>
                 <nav>
