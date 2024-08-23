@@ -1,66 +1,42 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaFacebook } from "react-icons/fa";
-
 
 const Footer = () => {
     return (
-        <section className='bg-gray-400 '>
-            <div className='max-w-7xl mx-auto'>
-                <div className='flex flex-col lg:flex-row p-5 gap-10'>
-                    <div>
-                        <Image src='/hilink-logo.svg' alt='hlink' width={100} height={100} />
-                    </div>
-                    <div className='flex flex-col lg:flex-row'>
-                        <div className='flex flex-col lg:flex-row w-full'>
-                            <div className='flex w-full justify-between border border-red-800'>
-                                <div className='flex-1'>
-                                    <h2 className='text-black font-bold text-xl mt-1'>Learn More</h2>
-                                    <div className='mt-8'>
-                                        <p >Job</p>
-                                        <p className='mt-3'>Contact Us</p>
-                                        <p className='mt-3'>Environment </p>
-                                        <p className='mt-3'>About HiLink</p>
-                                        <p className='mt-3'>Private Policy</p>
-                                    </div>
-                                </div>
-                                <div className='flex-1'>
-                                    <h2 className='text-black font-bold text-xl mt-1'>Learn More</h2>
-                                    <div className='mt-8'>
-                                        <p >Job</p>
-                                        <p className='mt-3'>Contact Us</p>
-                                        <p className='mt-3'>Environment </p>
-                                        <p className='mt-3'>About HiLink</p>
-                                        <p className='mt-3'>Private Policy</p>
-                                    </div>
-                                </div>
-                                <div className='flex-1'>
-                                    <h2 className='text-black font-bold text-xl mt-1'>Learn More</h2>
-                                    <div className='mt-8'>
-                                        <p >Job</p>
-                                        <p className='mt-3'>Contact Us</p>
-                                        <p className='mt-3'>Environment </p>
-                                        <p className='mt-3'>About HiLink</p>
-                                        <p className='mt-3'>Private Policy</p>
-                                    </div>
-                                </div>
+        <div>
+            <footer className="footer bg-base-200 text-base-content p-10">
+                <aside>
+                    <Image src='/hilink-logo.svg' alt='hlink' width={100} height={100} />
 
-                            </div>
-                        </div>
-                        <div>
-                        <h2 className='text-black font-bold text-xl mt-1 mb-3'>Social Media</h2>
-                            <div className='flex gap-3 text-3xl'>
-                                <FaFacebook></FaFacebook>
-                                <FaFacebook></FaFacebook>
-                                <FaFacebook></FaFacebook>
-                                <FaFacebook></FaFacebook>
-                            </div>
+                    ACME Industries Ltd.
+                    <br />
+                    Providing reliable tech since 1992
+                    <br />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                </aside>
+                <nav>
+                    <h6 className="footer-title">Services</h6>
+                    <a className="link link-hover">Branding</a>
+                    <a className="link link-hover">Design</a>
+                    <a className="link link-hover">Marketing</a>
+                    <a className="link link-hover">Advertisement</a>
+                </nav>
+                <nav>
+                    <h6 className="footer-title">Company</h6>
+                    <a className="link link-hover">About us</a>
+                    <a className="link link-hover">Contact</a>
+                    <a className="link link-hover">Jobs</a>
+                    <a className="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <h6 className="footer-title">Legal</h6>
+                    <a className="link link-hover">Terms of use</a>
+                    <a className="link link-hover">Privacy policy</a>
+                    <a className="link link-hover">Cookie policy</a>
+                </nav>
+            </footer>
+        </div>
     );
 };
 
