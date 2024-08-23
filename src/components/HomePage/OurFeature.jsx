@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
 import { CiImageOn } from "react-icons/ci";
+import { LuCalendarDays } from "react-icons/lu";
+import { PiTriangleLight } from "react-icons/pi";
 
 
 const OurFeature = () => {
@@ -28,15 +30,15 @@ const OurFeature = () => {
                                 <div className='bg-[#30AF5B] rounded-full p-5 w-16'>
                                     <CiImageOn className='text-white text-2xl'></CiImageOn>
                                 </div>
-                                <p className='mt-4 text-2xl font-bold'>Real maps can be offline</p>
+                                <p className='mt-4 text-3xl font-extrabold'>Real maps can be offline</p>
                                 <p className='mt-8 text-gray-400 text-justify'>We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location</p>
                             </div>
                             <div>
                                 <div className='bg-[#30AF5B] rounded-full p-5 w-16'>
-                                    <CiImageOn className='text-white text-2xl'></CiImageOn>
+                                    <LuCalendarDays className='text-white text-2xl'></LuCalendarDays>
                                 </div>
-                                <p className='mt-4 text-2xl font-bold'>Real maps can be offline</p>
-                                <p className='mt-8 text-gray-400 text-justify'>We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location</p>
+                                <p className='mt-4 text-3xl font-extrabold'>Set an adventure schedule</p>
+                                <p className='mt-8 text-gray-400 text-justify'>Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, theres no more discussion</p>
                             </div>
                         </div>
                         <div className='mt-20 flex flex-col lg:flex-row gap-14'>
@@ -44,14 +46,14 @@ const OurFeature = () => {
                                 <div className='bg-[#30AF5B] rounded-full p-5 w-16'>
                                     <CiImageOn className='text-white text-2xl'></CiImageOn>
                                 </div>
-                                <p className='mt-4 text-2xl font-bold'>Real maps can be offline</p>
+                                <p className='mt-4 text-3xl font-extrabold'>Real maps can be offline</p>
                                 <p className='mt-8 text-gray-400 text-justify'>We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location</p>
                             </div>
                             <div>
                                 <div className='bg-[#30AF5B] rounded-full p-5 w-16'>
                                     <CiImageOn className='text-white text-2xl'></CiImageOn>
                                 </div>
-                                <p className='mt-4 text-2xl font-bold'>Real maps can be offline</p>
+                                <p className='mt-4 text-3xl font-extrabold'>Real maps can be offline</p>
                                 <p className='mt-8 text-gray-400 text-justify'>We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location</p>
                             </div>
                         </div>
