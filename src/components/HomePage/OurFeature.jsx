@@ -7,10 +7,10 @@ const OurFeature = () => {
             <div className='lg:w-2/5 mx-auto mt-20'>
                 <div className=' '>
                     <div className='flex flex-col'>
-                        <Image className='' src='/camp.svg' height={50} width={50} alt='feature'></Image>
+                        <Image className='mx-auto' src='/camp.svg' height={50} width={50} alt='feature'></Image>
                     </div>
                     <div>
-                        <h1 className='-mt-2 text-6xl font-extrabold text-black '>Our Feature</h1>
+                        <h1 className='text-center -mt-2 text-6xl font-extrabold text-black '>Our Feature</h1>
                     </div>
                 </div>
             </div>
