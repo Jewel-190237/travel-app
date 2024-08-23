@@ -24,6 +24,7 @@ const GetSection = () => {
                         </div>
                     </div>
                     <div>
+                        <Image className='' src='/public/phones.png' height={50} width={50} alt='feature'></Image>
 
                     </div>
                 </div>
