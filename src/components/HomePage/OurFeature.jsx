@@ -44,10 +44,11 @@ const OurFeature = () => {
                         <div className='mt-20 flex flex-col lg:flex-row gap-14'>
                             <div>
                                 <div className='bg-[#30AF5B] rounded-full p-5 w-16'>
-                                    <CiImageOn className='text-white text-2xl'></CiImageOn>
+                                    <PiTriangleLight className='text-white text-2xl'></PiTriangleLight>
                                 </div>
-                                <p className='mt-4 text-3xl font-extrabold'>Real maps can be offline</p>
-                                <p className='mt-8 text-gray-400 text-justify'>We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location</p>
+                                <p className='mt-4 text-3xl font-extrabold'>Technology using augment reality
+                                </p>
+                                <p className='mt-8 text-gray-400 text-justify'>Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection</p>
                             </div>
                             <div>
                                 <div className='bg-[#30AF5B] rounded-full p-5 w-16'>
