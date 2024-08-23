@@ -8,13 +8,13 @@ const Footer = () => {
                 <footer className="footer bg-base-200 text-base-content p-10">
                     <aside>
                         <Image src='/hilink-logo.svg' alt='hlink' width={100} height={100} />
-                        <p>
+                        
                             ACME Industries Ltd.
                             <br />
                             Providing reliable tech since 1992
                             <br />
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        </p>
+                        
                     </aside>
                     <nav>
                         <h6 className="footer-title">Services</h6>
